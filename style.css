@@ -4,17 +4,7 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-@media(max-width:375PX) {
-  img {
-    display: none;
-  }
-  h1 {
-    font-size: 15px;
-  }
-  h2,a {
-    font-size: 5px;
-  }
-}
+
 body {
   margin: 60px auto;
   max-width: 800px;
@@ -106,4 +96,23 @@ h3 {
   color: white;
   padding:20px 10px 20px 10px;
   box-shadow: var(--box-shadow);
+}
+
+@media(max-width:600PX) {
+  .container {
+    text-align: center;
+
+  }
+  img {
+    display: none;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .email-link {
+    font-size: 15px;
+  }
 }
