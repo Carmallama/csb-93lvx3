@@ -4,7 +4,6 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-
 body {
   margin: 60px auto;
   max-width: 800px;
@@ -29,7 +28,7 @@ h3 {
   opacity: 0.7;
 }
 
-//p {
+p {
   background: var(--secondary-color);
   padding: 20px;
   border-radius: 4px;
@@ -37,7 +36,6 @@ h3 {
   line-height: 1.5;
   text-align: center;
 }
-
 
 .navigation-links {
   display: flex;
@@ -94,14 +92,16 @@ h3 {
 .primary-link {
   background-color: var(--primary-color);
   color: white;
-  padding:20px 10px 20px 10px;
+  padding: 20px 10px 20px 10px;
   box-shadow: var(--box-shadow);
 }
 
-@media(max-width:600PX) {
+@media (max-width: 600px) {
   .container {
     text-align: center;
-
+  }
+  p {
+    background: none;
   }
   img {
     display: none;
